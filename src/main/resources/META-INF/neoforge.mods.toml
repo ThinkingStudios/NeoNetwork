@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "Apache-2.0"
+
+[[mods]]
+modId = "neonetwork"
+version = "${version}"
+displayName = "NeoNetwork"
+credits = "FabricMC, Sinytra"
+authors = "TexTrue, ThinkingStudio"
+description = '''
+ForgifiedFabricAPI‘s networking api fork.
+Low-level, vanilla protocol oriented networking hooks.
+'''
+logoFile = "icon.png"
+
+[[mixin]]
+config = "fabric-networking-api-v1.mixins.json"
+
+[[mixin]]
+config = "fabric-networking-api-v1.client.mixins.json"
+
+[[dependencies.neonetwork]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.neonetwork]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21,)"
+ordering = "NONE"
+side = "BOTH"
