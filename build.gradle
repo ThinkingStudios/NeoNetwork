@@ -16,8 +16,6 @@ repositories {
 }
 
 loom {
-    accessWidenerPath = file("src/main/resources/fabric-networking-api-v1.accesswidener")
-
     silentMojangMappingsLicense()
 }
 
@@ -33,10 +31,6 @@ processResources {
     filesMatching('META-INF/neoforge.mods.toml') {
         expand version: project.version
     }
-}
-
-remapJar {
-    atAccessWideners.add "fabric-networking-api-v1.accesswidener"
 }
 
 java {

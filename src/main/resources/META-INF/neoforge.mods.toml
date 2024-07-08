@@ -15,6 +15,9 @@ Low-level, vanilla protocol oriented networking hooks.
 '''
 logoFile = "icon.png"
 
+[[accessTransformers]]
+file="accesstransformer.cfg"
+
 [[mixin]]
 config = "fabric-networking-api-v1.mixins.json"
 
