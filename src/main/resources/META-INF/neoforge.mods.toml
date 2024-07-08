@@ -6,6 +6,7 @@ license = "Apache-2.0"
 modId = "neonetwork"
 version = "${version}"
 displayName = "NeoNetwork"
+displayURL = "https://github.com/ThinkingStudios/NeoNetwork"
 credits = "FabricMC, Sinytra"
 authors = "TexTrue, ThinkingStudio"
 description = '''
