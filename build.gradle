@@ -5,10 +5,7 @@ plugins {
 
 group = project.maven_group
 version = project.mod_version
-
-base {
-    archivesName = project.archives_name
-}
+base.archivesName = project.archives_name
 
 repositories {
     // NeoForged repository.
